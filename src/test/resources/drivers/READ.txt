@@ -1,0 +1,2 @@
+Por conveniência, faça o download do chromedriver adequado para o seu sistema operacional e adicione neste diretório.
+Local para download: https://chromedriver.chromium.org/downloads
