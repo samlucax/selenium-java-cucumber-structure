@@ -92,10 +92,8 @@ Para executar o teste, basta clicar com o botão direito sobre a classe, e selec
 ### Arquitetura - Utilitários e TestRule
 Para configuração do ciclo de vida do teste, geração de relatórios e criação de métodos auxiliares, utilizamos as classes TestRule e Utils, respectivamente. Alguns dos métodos mais importantes são:
 **TestRule**
-- ***starting, beforeCenario e afterCenario*** - métodos que definem os comportamentos
-antes, durante e após a execução dos testes em geral e de cada cenário.
-- ***openApplicationChrome*** - método responsável por um abrir um navegador
-Chrome.
+- ***starting, beforeCenario e afterCenario*** - métodos que definem os comportamentos antes, durante e após a execução dos testes em geral e de cada cenário.
+- ***abrirNavegador*** - método responsável por um abrir um navegador Chrome.
 
 **Utils**
 - ***setDriverByOS*** - método para definir o driver de acordo com o sistema operacional.
